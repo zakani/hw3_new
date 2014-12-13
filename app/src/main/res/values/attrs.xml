@@ -1,0 +1,16 @@
+
+<resources>
+<declare-styleable name="CircleFillView" >
+    <attr name="fillColor" format="color" />
+    <attr name="strokeColor" format="color" />
+    <attr name="strokeWidth" format="float" />
+    <attr name="value" format="integer" />
+    <attr name="strokeColor_Income" format="color" />
+    <attr name="strokeColor_Cost" format="color" />
+    <attr name="strokeWidth_button" format="float" />
+</declare-styleable>
+<declare-styleable name="IncomeCostButton" >
+        <attr name="strokeColor_button2" format="color" />
+        <attr name="strokeWidth_button2" format="float" />
+</declare-styleable>
+</resources>

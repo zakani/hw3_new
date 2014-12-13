@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <com.example.m.hw2.CircleFillView
+        android:id="@+id/circleFillView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#ffffff"
+        custom:fillColor="#ffff9809"
+        custom:strokeColor="#ffff6436"
+        custom:strokeColor_Income="#ffff789b"
+        custom:strokeColor_Cost="#fff70185"
+
+        custom:value="65" />
+
+
+
+
+</LinearLayout>
